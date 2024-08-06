@@ -1,6 +1,5 @@
 import Home from './components/home'
 import './App.css'
-import { useState } from 'react';
 import {
   createBrowserRouter,
   createRoutesFromElements,
