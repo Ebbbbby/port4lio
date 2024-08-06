@@ -219,79 +219,10 @@ export const hireMeItems = [
     description:
       "I am Proficient with tools like Git for Code Management and Collaboration. ",
   },
-  // {
-  //   id: 5,
-  //   icon: <AiTwotoneHome />,
-  //   title: "Seamless Scaling",
-  //   description:
-  //     "My holistic approach goes beyond creating websites; I engineer growth. Through strategic design, responsive development, and targeted digital strategies, I empower businesses to scale effectively and seize opportunities.",
-  // },
-  // {
-  //   id: 6,
-  //   icon: <AiTwotoneHome />,
-  //   title: "Seamless Scaling",
-  //   description:
-  //     "My holistic approach goes beyond creating websites; I engineer growth. Through strategic design, responsive development, and targeted digital strategies, I empower businesses to scale effectively and seize opportunities.",
-  // },
+
 ];
 
-// export const recentProjects = [
-//   {
-//     id: 1,
-//     title: "Movies Spot",
-//     description:
-//       "A web application that allows users to search for movies and tv shows.",
-//     img: "",
-//     link: "https://github.com/Ebbbbby/movies-spot",
-//     icon: <GoProjectSymlink />,
-//   },
-//   {
-//     id: 2,
-//     title: "Recipe App",
-//     description:
-//       "A web application that allows users to search for movies and tv shows.",
-//     img: "",
-//     link: "https://github.com/Ebbbbby/movies-spot",
-//     icon: <GoProjectSymlink />,
-//   },
 
-//   {
-//     id: 3,
-//     title: "E-commerce",
-//     description:
-//       "A web application that allows users to search for movies and tv shows.",
-//     img: "",
-//     link: "https://github.com/Ebbbbby/movies-spot",
-//     icon: <GoProjectSymlink />,
-//   },
-//   {
-//     id: 4,
-//     title: "E-commerce",
-//     description:
-//       "A web application that allows users to search for movies and tv shows.",
-//     img: "",
-//     link: "https://github.com/Ebbbbby/movies-spot",
-//     icon: <GoProjectSymlink />,
-//   },
-//   {
-//     is: 5,
-//     title: "Sip of Coctail",
-//     description:
-//       "A web application that allows users to search for movies and tv shows.",
-//     img: "",
-//     link: "https://github.com/Ebbbbby/movies-spot",
-//     icon: <GoProjectSymlink />,
-//   },
-//   {
-//     id: 6,
-//     title: "E-commerce",
-//     description:
-//       "A web application that allows users to search for movies and tv shows.",
-//     img: "",
-//     link: "https://github.com/Ebbbbby/movies-spot",
-//     icon: <GoProjectSymlink />,
-//   },
-// ];
 export const projects = [
   {
     id: 1,
@@ -300,7 +231,6 @@ export const projects = [
     img: "../src/assets/hotel.png",
     iconLists: [
       "/../src/assets/next.svg",
-
       "../src/assets/tail.svg",
       "../src/assets/ts.svg",
       "../src/assets/fm.svg",
