@@ -5,7 +5,7 @@ import devImg from "../src/assets/devImg.svg";
 import wavy from "../src/assets/wavy.svg";
 import API from "../src/assets/API.svg";
 import hotel from "../src/assets/hotel.png";
-import moviehub from "../src/assets/moviehubfp.png";
+import moviehubfp from "../src/assets/moviehubfp.png";
 import fp from "../src/assets/fp.png";
 import exp1 from "../src/assets/exp1.svg";
 import exp2 from "../src/assets/exp2.svg";
@@ -186,7 +186,7 @@ export const projects = [
     id: 2,
     title: "Movie App",
     des: "Created a responsive movie app using React, which dynamically fetches data from a movie API database to display the latest films.",
-    img: moviehub,
+    img: moviehubfp,
     iconLists: [react, tail, c],
     link: "https://moviesspot.netlify.app",
   },
