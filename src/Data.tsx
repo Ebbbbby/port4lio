@@ -4,7 +4,7 @@ import b1 from "../src/assets/b1.svg";
 import devImg from "../src/assets/devImg.svg";
 import wavy from "../src/assets/wavy.svg";
 import API from "../src/assets/API.svg";
-import hotel from "../src/assets/hotel.png";
+// import hotel from "../src/assets/hotel.png";
 import moviehubfp from "../src/assets/moviehubfp.png";
 import fp from "../src/assets/fp.png";
 import exp1 from "../src/assets/exp1.svg";
@@ -178,7 +178,7 @@ export const projects = [
     id: 1,
     title: "Hotel Management App",
     des: "Developed a hotel management web application featuring a Stripe-integrated payment gateway and Google and GitHub authentication for secure, user-friendly access.",
-    img: hotel,
+    img: 'hotel',
     iconLists: [nextIcon, tail, ts, fm],
     link: "https://hotel-management-59cv.vercel.app/",
   },
