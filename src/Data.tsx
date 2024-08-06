@@ -1,45 +1,25 @@
-import {
-  AiFillGithub,
-  AiOutlineInstagram,
-  AiOutlineLinkedin,
-  AiOutlineTwitter,
-  AiTwotoneHome,
-} from "react-icons/ai";
-// import { AiOutlineUser } from "react-icons/ai";
-// import { BsBook } from "react-icons/bs";
-// import { RiServiceLine } from "react-icons/ri";
-// import { MdContactPhone } from "react-icons/md";
-// import { GoProjectSymlink } from "react-icons/go";
-import { BiLogoNetlify } from "react-icons/bi";
-// import img1 from "../src/assets/b1.svg";
-import { FaCheckCircle } from "react-icons/fa";
+import {AiTwotoneHome} from "react-icons/ai";
 
-export const navbarLinks = [
-  {
-    id: 1,
-    link: "/home",
-  },
-  {
-    id: 2,
-    link: "about",
-  },
-  {
-    id: 3,
-    link: "/education",
-  },
-  {
-    id: 4,
-    link: "/experience",
-  },
-  {
-    id: 5,
-    link: "/projects",
-  },
-  {
-    id: 6,
-    link: "/contact",
-  },
-];
+import b1 from "../src/assets/b1.svg";
+import devImg from "../src/assets/devImg.svg";
+import wavy from "../src/assets/wavy.svg";
+import API from "../src/assets/API.svg";
+import hotel from "../src/assets/hotel.png";
+import moviehub from "../src/assets/moviehubfp.png";
+import fp from "../src/assets/fp.png";
+import exp1 from "../src/assets/exp1.svg";
+import exp2 from "../src/assets/exp2.svg";
+import exp3 from "../src/assets/exp3.svg";
+import exp4 from "../src/assets/exp4.svg";
+import nextIcon from "../src/assets/next.svg";
+import tail from "../src/assets/tail.svg";
+import ts from "../src/assets/ts.svg";
+import fm from "../src/assets/fm.svg";
+import react from "../src/assets/re.svg";
+import c from "../src/assets/c.svg";
+import link from "../src/assets/link.svg";
+import git from "../src/assets/git.svg";
+import { FaCheckCircle } from "react-icons/fa";
 
 export interface LinkItem {
   id: number;
@@ -47,34 +27,6 @@ export interface LinkItem {
   icon: any;
 }
 
-export const socialLinks: LinkItem[] = [
-  {
-    id: 1,
-    link: "https://www.linkedin.com/in/ebele-ozoani-319524224",
-    icon: <AiOutlineLinkedin />,
-  },
-  {
-    id: 2,
-    link: "https://github.com/Ebbbbby",
-    icon: <AiFillGithub />,
-  },
-  {
-    id: 3,
-    link: "https://twitter.com/ebele_ozoani",
-    icon: <AiOutlineTwitter />,
-  },
-
-  {
-    id: 4,
-    link: "https://www.instagram.com/ebele_ozoani/",
-    icon: <AiOutlineInstagram />,
-  },
-  {
-    id: 5,
-    link: "https://moviesspot.netlify.app",
-    icon: <BiLogoNetlify />,
-  },
-];
 export const gridItems = [
   {
     id: 1,
@@ -84,7 +36,7 @@ export const gridItems = [
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
     titleClassName: "justify-end",
-    img: "../src/assets/b1.svg",
+    img: b1,
     spareImg: "",
   },
   {
@@ -95,7 +47,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "../src/assets/devImg.svg",
+    img: devImg,
     spareImg: "",
   },
   {
@@ -106,7 +58,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
-    img: "../src/assets/wavy.svg",
+    img: wavy,
     spareImg: "",
   },
   {
@@ -118,7 +70,7 @@ export const gridItems = [
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
-    img: "../src/assets/API.svg",
+    img: API,
     spareImg: "./b4.svg",
   },
 ];
@@ -182,7 +134,7 @@ export const skillsItem = [
     icon: <FaCheckCircle />,
   },
   {
-    id:9,
+    id: 9,
     title: ".Net",
     progress: 50,
     color: "green",
@@ -219,51 +171,33 @@ export const hireMeItems = [
     description:
       "I am Proficient with tools like Git for Code Management and Collaboration. ",
   },
-
 ];
-
 
 export const projects = [
   {
     id: 1,
     title: "Hotel Management App",
     des: "Developed a hotel management web application featuring a Stripe-integrated payment gateway and Google and GitHub authentication for secure, user-friendly access.",
-    img: "../src/assets/hotel.png",
-    iconLists: [
-      "/../src/assets/next.svg",
-      "../src/assets/tail.svg",
-      "../src/assets/ts.svg",
-      "../src/assets/fm.svg",
-    ],
+    img: hotel,
+    iconLists: [nextIcon, tail, ts, fm],
     link: "https://hotel-management-59cv.vercel.app/",
   },
   {
     id: 2,
     title: "Movie App",
     des: "Created a responsive movie app using React, which dynamically fetches data from a movie API database to display the latest films.",
-    img: "../src/assets/moviehubfp.png",
-    iconLists: [
-      "../src/assets/re.svg",
-      "../src/assets/tail.svg",
-      "../src/assets/c.svg",
-    ],
+    img: moviehub,
+    iconLists: [react, tail, c],
     link: "https://moviesspot.netlify.app",
   },
   {
     id: 3,
     title: "Mini E- Commerce App",
     des: "Developed an application where you can shop for various items. The application allows a user to login, add items to cart and pay for those items",
-    img: "../src/assets/fp.png",
-    iconLists: [
-      "../src/assets/re.svg",
-      "../src/assets/tail.svg",
-      "../src/assets/ts.svg",
-      "../src/assets/three.svg",
-      "../src/assets/c.svg",
-    ],
+    img: fp,
+    iconLists: [react, tail, ts, c],
     link: "https://clothier.netlify.app",
   },
-
 ];
 export const testimonials = [
   {
@@ -286,41 +220,41 @@ export const workExperience = [
     title: "Software Engineer Intern",
     desc: "Assisted in the development of a web-based platform using JavaScript, enhancing interactivity.",
     className: "md:col-span-2",
-    thumbnail: "../src/assets/exp1.svg",
+    thumbnail: exp1,
   },
   {
     id: 2,
     title: "Software Developer at Decagon",
     desc: "Designed and developed dynamic applications utilizing React, JavaScript, HTML, and CSS for the front end, ensuring responsive and interactive user experiences. Leveraged the .NET framework for backend development, providing robust and scalable server-side functionality. ",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "../src/assets/exp2.svg",
+    thumbnail: exp2,
   },
   {
     id: 3,
     title: "Frontend Devloper at NLPC PFA",
     desc: "Designed and developed web applications for user departments to streamline their daily operations. Utilized React for the front end and employed Redux for efficient state management, ensuring smooth and consistent application performance.",
     className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: "../src/assets/exp3.svg",
+    thumbnail: exp3,
   },
   {
     id: 4,
     title: "Frontend Developer at Regxta",
     desc: "Developed and maintained user-facing features using modern frontend technologies, including React, TypeScript, and Redux. Leveraged these tools to create dynamic and responsive web applications that enhance user experience and provide efficient state management",
     className: "md:col-span-2",
-    thumbnail: "../src/assets/exp4.svg",
+    thumbnail: exp4,
   },
 ];
 
 export const socialMedia = [
   {
     id: 1,
-    img: "../src/assets/git.svg",
+    img: git,
     link: "https://github.com/Ebbbbby",
   },
 
   {
     id: 2,
-    img: "../src/assets/link.svg",
-    link:"https://www.linkedin.com/in/ebele-ozoani-319524224/"
+    img: link,
+    link: "https://www.linkedin.com/in/ebele-ozoani-319524224/",
   },
 ];
