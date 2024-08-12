@@ -4,8 +4,8 @@ import b1 from "../src/assets/b1.svg";
 import devImg from "../src/assets/devImg.svg";
 import wavy from "../src/assets/wavy.svg";
 import API from "../src/assets/API.svg";
-// import hotel from "../src/assets/hotel.png";
-import moviehubfp from "../src/assets/moviehubfp.png";
+import hotel from "../public/images/hotel.png";
+import moviehubfp from "../public/images/moviehubfp.png";
 import fp from "../src/assets/fp.png";
 import exp1 from "../src/assets/exp1.svg";
 import exp2 from "../src/assets/exp2.svg";
@@ -178,7 +178,7 @@ export const projects = [
     id: 1,
     title: "Hotel Management App",
     des: "Developed a hotel management web application featuring a Stripe-integrated payment gateway and Google and GitHub authentication for secure, user-friendly access.",
-    img: 'hotel',
+    img: "/images/hotel.png",
     iconLists: [nextIcon, tail, ts, fm],
     link: "https://hotel-management-59cv.vercel.app/",
   },
@@ -186,7 +186,7 @@ export const projects = [
     id: 2,
     title: "Movie App",
     des: "Created a responsive movie app using React, which dynamically fetches data from a movie API database to display the latest films.",
-    img: moviehubfp,
+    img: "/images/moviehubfp.png",
     iconLists: [react, tail, c],
     link: "https://moviesspot.netlify.app",
   },
@@ -194,7 +194,7 @@ export const projects = [
     id: 3,
     title: "Mini E- Commerce App",
     des: "Developed an application where you can shop for various items. The application allows a user to login, add items to cart and pay for those items",
-    img: fp,
+    img: "/images/fp.png",
     iconLists: [react, tail, ts, c],
     link: "https://clothier.netlify.app",
   },
