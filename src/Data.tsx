@@ -1,12 +1,8 @@
 import {AiTwotoneHome} from "react-icons/ai";
-
 import b1 from "../src/assets/b1.svg";
 import devImg from "../src/assets/devImg.svg";
 import wavy from "../src/assets/wavy.svg";
 import API from "../src/assets/API.svg";
-import hotel from "../public/images/hotel.png";
-import moviehubfp from "../public/images/moviehubfp.png";
-import fp from "../src/assets/fp.png";
 import exp1 from "../src/assets/exp1.svg";
 import exp2 from "../src/assets/exp2.svg";
 import exp3 from "../src/assets/exp3.svg";
