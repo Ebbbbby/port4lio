@@ -40,7 +40,7 @@ const index = () => {
           20+ Satisfied Clients
         </p>
         <p className="tracking-wide py-3 md:px-5 font-medium">
-          4 Years Experience
+          4+ Years Experience
         </p>
       </div>
 

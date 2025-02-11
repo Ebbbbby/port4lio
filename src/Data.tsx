@@ -10,9 +10,7 @@ import exp4 from "../src/assets/exp4.svg";
 import nextIcon from "../src/assets/next.svg";
 import tail from "../src/assets/tail.svg";
 import ts from "../src/assets/ts.svg";
-import fm from "../src/assets/fm.svg";
 import react from "../src/assets/re.svg";
-import c from "../src/assets/c.svg";
 import link from "../src/assets/link.svg";
 import git from "../src/assets/git.svg";
 import { FaCheckCircle } from "react-icons/fa";
@@ -173,27 +171,28 @@ export const projects = [
   {
     id: 1,
     title: "Hotel Management App",
-    des: "Developed a hotel management web application featuring a Stripe-integrated payment gateway and Google and GitHub authentication for secure, user-friendly access.",
-    img: "/images/hotel.png",
-    iconLists: [nextIcon, tail, ts, fm],
+    des: "Developed a hotel management web application featuring a Stripe-integrated payment gateway, Google and GitHub authentication for secure, user-friendly access.",
+    img: "/images/hotel-man.png",
+    iconLists: [nextIcon, tail, ts,],
     link: "https://hotel-management-59cv.vercel.app/",
   },
   {
     id: 2,
-    title: "Movie App",
-    des: "Created a responsive movie app using React, which dynamically fetches data from a movie API database to display the latest films.",
-    img: "/images/moviehubfp.png",
-    iconLists: [react, tail, c],
-    link: "https://moviesspot.netlify.app",
+    title: "Regxta Admin",
+    des: "Designed an administator dashboard for visualization of Loan metrics. The application in its enirety handles Loan process management, which includes approval or rejection of loan requests. There is also a robost repayment schedule embeded in the system. ",
+    img: "/images/regxta-dash.png",
+    iconLists: [react, tail, ts],
+    link: "https://staging.admin.regxta.com/",
   },
   {
     id: 3,
-    title: "Mini E- Commerce App",
-    des: "Developed an application where you can shop for various items. The application allows a user to login, add items to cart and pay for those items",
-    img: "/images/fp.png",
-    iconLists: [react, tail, ts, c],
-    link: "https://clothier.netlify.app",
+    title: "Real Estate Management",
+    des: "This application handles the procurement and sale of real estate properties. Payload payment gateway was integrated into the system to enable customers checkout when they have successfuly procured any property.",
+    img: "/images/kenJose.png",
+    iconLists: [react, tail, ts, nextIcon],
+    link: "http://kenjose-test.netlify.app/",
   },
+
 ];
 export const testimonials = [
   {
@@ -213,31 +212,31 @@ export const testimonials = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using JavaScript, enhancing interactivity.",
+    title: "Frontend Engineer at Regxta",
+    desc: "Developed and maintained user-facing features using modern frontend technologies, including React, TypeScript, and Redux. Leveraged these tools to create dynamic and responsive web applications that enhance user experience and provide efficient state management.",
     className: "md:col-span-2",
-    thumbnail: exp1,
+    thumbnail: exp4,
   },
   {
     id: 2,
-    title: "Software Developer at Decagon",
-    desc: "Designed and developed dynamic applications utilizing React, JavaScript, HTML, and CSS for the front end, ensuring responsive and interactive user experiences. Leveraged the .NET framework for backend development, providing robust and scalable server-side functionality. ",
-    className: "md:col-span-2", // change to md:col-span-2
-    thumbnail: exp2,
-  },
-  {
-    id: 3,
-    title: "Frontend Devloper at NLPC PFA",
+    title: "Frontend Engineer at NLPC PFA",
     desc: "Designed and developed web applications for user departments to streamline their daily operations. Utilized React for the front end and employed Redux for efficient state management, ensuring smooth and consistent application performance.",
-    className: "md:col-span-2", // change to md:col-span-2
+    className: "md:col-span-2",
     thumbnail: exp3,
   },
   {
-    id: 4,
-    title: "Frontend Developer at Regxta",
-    desc: "Developed and maintained user-facing features using modern frontend technologies, including React, TypeScript, and Redux. Leveraged these tools to create dynamic and responsive web applications that enhance user experience and provide efficient state management",
+    id: 3,
+    title: "Frontend Engineer at Paylode",
+    desc: "Integrated third-party APIs, including payment gateways, to improve platform functionality, contributing to an increase in user engagement and receiving positive client feedback. ",
     className: "md:col-span-2",
-    thumbnail: exp4,
+    thumbnail: exp2,
+  },
+  {
+    id: 4,
+    title: "Junior Software Engineer",
+    desc: "Assisted in the development of a web-based platforms using JavaScript",
+    className: "md:col-span-2",
+    thumbnail: exp1,
   },
 ];
 
