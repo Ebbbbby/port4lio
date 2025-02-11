@@ -6,21 +6,21 @@ const RecentProjects = () => {
   return (
     <div>
       <section className="py-16" id="RecentProjects">
-        <div className="container mx-auto ">
-          <h2 className="text-2xl font-bold text-center text-white md:text-4xl mb-[5rem]">
+        <div className="container mx-auto">
+          <h2 className="text-2xl font-bold text-center text-white md:text-4xl">
             A Small Selection Of{" "}
             <span className="text-purple-400 bg-gradient-to-r from-purple-400 via-pink-300 to-purple-200 bg-clip-text text-transparent">
               {" "}
               Recent Projects
             </span>
           </h2>
-          <div className="flex flex-wrap items-center justify-center p-4 gap-x-10 mt-10 md:gap-x-10 ">
+          <div className="flex flex-wrap items-center justify-center p-4  md:mt-5 md:gap-x-10">
             {projects
               .slice(0, 3)
               .map(({ id, title, des, img, iconLists, link }) => (
                 <div
                   key={id}
-                  className=" lg:min-h-[32.5rem] h-[32rem] sm:w-96 w-[50vw] lg:mt-20 xl:mt-10"
+                  className="mt-28 lg:min-h-[32.5rem] h-[29rem] flex items-center justify-center sm:w-96 w-[50vw] px-5  sm:mt-12  "
                 >
                   <PinContainer title={link} href={link}>
                     <div className="relative flex items-center justify-center h-full sm:w-96 w-[80vw] overflow-hidden lg:h-[20vh] mb-10 xl:lg:h-[30vh] sm:h-full">
@@ -28,7 +28,7 @@ const RecentProjects = () => {
                         <img
                           src="../../../src/assets/bg.png"
                           alt={title}
-                          className="w-full h-[50%] object-contain  rounded-lg shadow-lg shadow-purple-500/40 border"
+                          className="w-full h-[50%] object-contain  rounded-lg shadow-lg shadow-purple-500/40"
                         />
                       </div>
                       <img
