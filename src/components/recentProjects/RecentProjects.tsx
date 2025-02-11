@@ -14,16 +14,16 @@ const RecentProjects = () => {
               Recent Projects
             </span>
           </h2>
-          <div className="flex flex-wrap items-center justify-center p-4  md:mt-5 md:gap-x-10">
+          <div className="flex flex-wrap items-center justify-center p-4  md:mt-5 md:gap-x-10 ">
             {projects
               .slice(0, 3)
               .map(({ id, title, des, img, iconLists, link }) => (
                 <div
                   key={id}
-                  className="mt-28 lg:min-h-[32.5rem] h-[29rem] flex items-center justify-center sm:w-96 w-[50vw] px-5  sm:mt-12  "
+                  className="mt-40 lg:min-h-[32.5rem] h-[29rem] flex items-center justify-center sm:w-96 w-[50vw] px-5  sm:mt-12  "
                 >
                   <PinContainer title={link} href={link}>
-                    <div className="relative flex items-center justify-center h-full sm:w-96 w-[80vw] overflow-hidden lg:h-[20vh] mb-10 xl:lg:h-[30vh] sm:h-full">
+                    <div className="relative flex items-center justify-center  h-full sm:w-96 w-[80vw] overflow-hidden lg:h-[20vh] mb-10 xl:lg:h-[30vh] sm:h-full">
                       <div className="relative w-full overflow-hidden lg:rounded-3xl bg-[#13162d] rounded-lg">
                         <img
                           src="../../../src/assets/bg.png"
